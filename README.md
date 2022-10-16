@@ -13,7 +13,7 @@ $ docker-compose up -d
 ```
 ### 4. After that you can send the POST request with JSON info to <i>http://localhost:8090/api/v1/events</i>.
 #### * For this action you can use postman
-#### * JSON: {"message":"your message", "level":"level", "type":"type", "time":"timestamp"}
+#### * JSON: {"message":"your message", "level":"level", "type":"type", "time":"0123456789"}
 ## Stop database and logserver:
 ### To stop database and remove the container run:
 ```bash
